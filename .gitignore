@@ -1,1 +1,69 @@
+# =========================
+# OS / Editor junk
+# =========================
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Local / private folders
+# =========================
+local/
+.env
+.env.*
+
+# =========================
+# Python cache & builds
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# =========================
+# Data files (keep structure, not raw data)
+# =========================
+data/
+*.csv
+*.parquet
+*.feather
+*.geojson
+*.shp
+*.dbf
+*.shx
+
+# =========================
+# Large or derived outputs
+# =========================
+*.log
+*.tmp
+*.pickle
+*.pkl
+
+# =========================
+# Mac + Python tooling noise
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Ignore downloaded map tiles
+# =========================
+.cache/
